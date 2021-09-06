@@ -2,7 +2,7 @@
 	"name": "input_file_source",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "jparAzureBlobStorage",
+			"referenceName": "jparlinkedservice",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -11,7 +11,7 @@
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": "Emp.txt",
-				"container": "input"
+				"container": "import"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",

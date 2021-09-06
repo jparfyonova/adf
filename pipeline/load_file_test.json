@@ -27,7 +27,8 @@
 						}
 					},
 					"sink": {
-						"type": "AzureSqlSink"
+						"type": "AzureSqlSink",
+						"disableMetricsCollection": false
 					},
 					"enableStaging": false,
 					"translator": {
@@ -47,7 +48,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "azure_sql_db",
+						"referenceName": "output_db_emp",
 						"type": "DatasetReference"
 					}
 				]
