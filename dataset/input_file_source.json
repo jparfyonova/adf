@@ -2,7 +2,7 @@
 	"name": "input_file_source",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "jparAzureBlobStorage",
+			"referenceName": "jparlinkedservice",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
