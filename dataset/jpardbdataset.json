@@ -1,0 +1,26 @@
+{
+	"name": "jpardbdataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "azure_sql_db",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "EmpId",
+				"type": "tinyint",
+				"precision": 3
+			},
+			{
+				"name": "EmpName",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Emp"
+		}
+	}
+}
