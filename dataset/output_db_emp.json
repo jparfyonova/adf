@@ -1,5 +1,5 @@
 {
-	"name": "jpardbdataset",
+	"name": "output_db_emp",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "azure_sql_db",

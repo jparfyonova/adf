@@ -48,7 +48,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "jpardbdataset",
+						"referenceName": "output_db_emp",
 						"type": "DatasetReference"
 					}
 				]
