@@ -1,5 +1,5 @@
 {
-	"name": "Json1",
+	"name": "JsonDataset",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage1",
