@@ -1,5 +1,5 @@
 {
-	"name": "load_rest_to_datalakegen2",
+	"name": "load_rest_to_datalakegen2_json",
 	"properties": {
 		"activities": [
 			{
