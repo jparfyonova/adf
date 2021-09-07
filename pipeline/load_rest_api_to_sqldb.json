@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "load_rest_api_to_sqldb",
 	"properties": {
 		"activities": [
 			{
