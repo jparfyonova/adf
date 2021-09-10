@@ -116,10 +116,7 @@
 						"referenceName": "AzureSqlDatabaseSinkDataset",
 						"type": "DatasetReference",
 						"parameters": {
-							"sinkTableName": {
-								"value": "@replace(pipeline().parameters.SourceFileName, '.csv', '')",
-								"type": "Expression"
-							}
+							"sinkTableName": "TestTable"
 						}
 					}
 				]
