@@ -46,18 +46,9 @@
 						"referenceName": "file_csv_source",
 						"type": "DatasetReference",
 						"parameters": {
-							"SourceContainer": {
-								"value": "@pipeline().parameters.SourceContainer",
-								"type": "Expression"
-							},
-							"SourceDirectory": {
-								"value": "@pipeline().parameters.SourceDirectory",
-								"type": "Expression"
-							},
-							"SourceFileName": {
-								"value": "@pipeline().parameters.SourceFileName",
-								"type": "Expression"
-							}
+							"SourceContainer": "test",
+							"SourceDirectory": "TestDir",
+							"SourceFileName": "TestFileEmp.csv"
 						}
 					}
 				],
@@ -66,7 +57,7 @@
 						"referenceName": "AzureSqlDatabaseSinkDataset",
 						"type": "DatasetReference",
 						"parameters": {
-							"sinkTableName": "TestTable"
+							"sinkTableName": "TestFileEmp"
 						}
 					}
 				]
