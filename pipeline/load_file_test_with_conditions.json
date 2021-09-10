@@ -68,7 +68,21 @@
 				"typeProperties": {
 					"dataset": {
 						"referenceName": "GetMetadataFile",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"SourceContainer": {
+								"value": "@pipeline().parameters.SourceContainer",
+								"type": "Expression"
+							},
+							"SourceDirectory": {
+								"value": "@pipeline().parameters.SourceDirectory",
+								"type": "Expression"
+							},
+							"SourceFileName": {
+								"value": "@pipeline().parameters.SourceFileName",
+								"type": "Expression"
+							}
+						}
 					},
 					"fieldList": [
 						"exists"
@@ -88,6 +102,9 @@
 				"type": "string"
 			},
 			"SourceDirectory": {
+				"type": "string"
+			},
+			"SourceFileName": {
 				"type": "string"
 			}
 		},
