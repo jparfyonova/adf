@@ -44,7 +44,12 @@
 				"inputs": [
 					{
 						"referenceName": "CSVfile_source",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"SourceContainer": "test",
+							"SourceDirectory": "TestDir",
+							"SourceFileName": "TestFileEmp.csv"
+						}
 					}
 				],
 				"outputs": [
