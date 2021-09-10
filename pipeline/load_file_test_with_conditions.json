@@ -106,13 +106,16 @@
 		],
 		"parameters": {
 			"SourceContainer": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "test"
 			},
 			"SourceDirectory": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "TestDir"
 			},
 			"SourceFileName": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "TestFileEmp - Copy.csv"
 			}
 		},
 		"annotations": []
