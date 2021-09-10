@@ -68,9 +68,21 @@
 				"typeProperties": {
 					"dataset": {
 						"referenceName": "GetMetadataDataset",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"SourceContainer": {
+								"value": "@pipeline().parameters.SourceContainer",
+								"type": "Expression"
+							},
+							"SourceDirectory": {
+								"value": "@pipeline().parameters.SourceDirectory",
+								"type": "Expression"
+							}
+						}
 					},
-					"fieldList": [],
+					"fieldList": [
+						"exists"
+					],
 					"storeSettings": {
 						"type": "AzureBlobFSReadSettings",
 						"enablePartitionDiscovery": false
