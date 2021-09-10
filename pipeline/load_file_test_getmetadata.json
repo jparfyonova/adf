@@ -63,20 +63,6 @@
 				]
 			}
 		],
-		"parameters": {
-			"SourceContainer": {
-				"type": "string",
-				"defaultValue": "test"
-			},
-			"SourceDirectory": {
-				"type": "string",
-				"defaultValue": "TestDir"
-			},
-			"SourceFileName": {
-				"type": "string",
-				"defaultValue": "TestFileEmp.csv"
-			}
-		},
 		"annotations": []
 	}
 }
