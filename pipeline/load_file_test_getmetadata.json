@@ -136,7 +136,7 @@
 			},
 			"SourceFileName": {
 				"type": "string",
-				"defaultValue": "TestFileEmp - Copy.csv"
+				"defaultValue": "TestFileEmp.csv"
 			}
 		},
 		"annotations": []
