@@ -103,7 +103,7 @@
 							},
 							"inputs": [
 								{
-									"referenceName": "input_file_source",
+									"referenceName": "file_csv_source",
 									"type": "DatasetReference"
 								}
 							],
