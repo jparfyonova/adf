@@ -123,8 +123,14 @@
 							],
 							"outputs": [
 								{
-									"referenceName": "output_db_emp",
-									"type": "DatasetReference"
+									"referenceName": "AzureSqlDatabaseSinkDataset",
+									"type": "DatasetReference",
+									"parameters": {
+										"sinkTableName": {
+											"value": "@replace(pipeline().parameters.SourceFileName, '.csv', '')",
+											"type": "Expression"
+										}
+									}
 								}
 							]
 						}
