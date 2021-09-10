@@ -2,16 +2,17 @@
 	"name": "CSVfile_source",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "jparlinkedservice",
+			"referenceName": "AzureDataLakeStorage1",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobStorageLocation",
-				"fileName": "Emp.txt",
-				"container": "import"
+				"type": "AzureBlobFSLocation",
+				"fileName": "TestFileEmp.csv",
+				"folderPath": "TestDir",
+				"fileSystem": "test"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
