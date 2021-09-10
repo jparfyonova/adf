@@ -67,18 +67,8 @@
 				"userProperties": [],
 				"typeProperties": {
 					"dataset": {
-						"referenceName": "GetMetadataDataset",
-						"type": "DatasetReference",
-						"parameters": {
-							"SourceContainer": {
-								"value": "@pipeline().parameters.SourceContainer",
-								"type": "Expression"
-							},
-							"SourceDirectory": {
-								"value": "@pipeline().parameters.SourceDirectory",
-								"type": "Expression"
-							}
-						}
+						"referenceName": "GetMetadataFile",
+						"type": "DatasetReference"
 					},
 					"fieldList": [
 						"exists"
