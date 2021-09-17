@@ -37,7 +37,57 @@
 						"type": "AzureSqlSink",
 						"disableMetricsCollection": false
 					},
-					"enableStaging": false
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"path": "$['id']"
+								},
+								"sink": {
+									"name": "id",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"path": "$['employee_name']"
+								},
+								"sink": {
+									"name": "employee_name_test",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"path": "$['employee_salary']"
+								},
+								"sink": {
+									"name": "employee_salary",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"path": "$['employee_age']"
+								},
+								"sink": {
+									"name": "employee_age",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"path": "$['profile_image']"
+								},
+								"sink": {
+									"name": "profile_image",
+									"type": "String"
+								}
+							}
+						]
+					}
 				},
 				"inputs": [
 					{
