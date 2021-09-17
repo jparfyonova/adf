@@ -39,7 +39,7 @@
 					},
 					"enableStaging": false,
 					"translator": {
-						"value": "@replace(activity('Lookup1').output.FirstRow.json_output, '\\', '')",
+						"value": "@activity('Lookup1').output.FirstRow.json_output",
 						"type": "Expression"
 					}
 				},
