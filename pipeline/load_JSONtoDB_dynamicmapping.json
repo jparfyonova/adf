@@ -26,6 +26,10 @@
 							"type": "JsonReadSettings"
 						}
 					},
+					"sink": {
+						"type": "AzureSqlSink",
+						"disableMetricsCollection": false
+					},
 					"enableStaging": false
 				},
 				"inputs": [
@@ -37,6 +41,12 @@
 							"DirectoryName": "TestDir",
 							"FileName": "TestFileEmp.json"
 						}
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "AzureDB_target",
+						"type": "DatasetReference"
 					}
 				]
 			}
