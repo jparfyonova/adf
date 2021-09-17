@@ -1,0 +1,16 @@
+{
+	"name": "AzureDB_target",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "azure_sql_db",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "TestFileEmp"
+		}
+	}
+}
