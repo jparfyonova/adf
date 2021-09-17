@@ -37,11 +37,7 @@
 						"type": "AzureSqlSink",
 						"disableMetricsCollection": false
 					},
-					"enableStaging": false,
-					"translator": {
-						"value": "@activity('Lookup1').output.FirstRow.json_output",
-						"type": "Expression"
-					}
+					"enableStaging": false
 				},
 				"inputs": [
 					{
