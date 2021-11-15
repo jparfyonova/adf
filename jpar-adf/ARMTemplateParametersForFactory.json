@@ -5,11 +5,20 @@
 		"factoryName": {
 			"value": "jpar-adf"
 		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
 		"azure_sql_db_connectionString": {
 			"value": ""
 		},
 		"jparlinkedservice_connectionString": {
 			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://jpardatalakegen2.dfs.core.windows.net"
+		},
+		"RestAPI_properties_typeProperties_url": {
+			"value": "http://dummy.restapiexample.com/api/v1/employees"
 		}
 	}
 }
